@@ -10,7 +10,7 @@ const HomeInfo = ({ currentStage }) => {
                 <span className='font-semibold mx-2 text-white'>Bhuvan</span>
                 👋
                 <br />
-                A Software Engineer from India
+                A Full Stack Software Engineer from India
             </h1>
         );
 
@@ -36,7 +36,7 @@ const HomeInfo = ({ currentStage }) => {
                     Developed multiple projects to success over the years. <br /> Curious about the impact?
                 </p>
 
-                <Link to='/projects' className='neo-brutalism-white neo-btn'>
+                <Link to='/project' className='neo-brutalism-white neo-btn'>
                     Visit my portfolio
                     <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
                 </Link>
