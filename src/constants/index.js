@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla, idexcel, testyantra, chef } from "../assets/images";
+import { meta, shopify, starbucks, tesla, idexcel, testyantra, chef, fidelity } from "../assets/images";
 import {
     car,
     contact,
@@ -145,6 +145,19 @@ export const experiences = [
             `Increased data accuracy by 95% in response object and reduced response time by 80% upon implementing dynamic querying in service layer. On the UI layer, the Server-Side Row Model grid, ag-Grid, was also implemented.`,
             `Developed versatile UI common components with drag-and-drop, resizable, and minimizable capabilities, offering a unified solution.`,
             `Contributed to the development of the admin service by writing server-side code in Node.js and Express, utilizing the Sequelize ORM to efficiently manage data operations.`
+
+        ],
+    },
+        {
+        title: "Software Engineer Co-op",
+        company_name: "Fidelity Investments (FCAT) ",
+        icon: fidelity,
+        iconBg: "#accbe1",
+        date: "July 2024 - Dec 2024",
+        points: [
+            `Implemented ATP charts for the MultiTaction tool using an internal Chart-iq package, enabling listing of S&P companies with a search tooltip for improved navigation.`,
+            `Developed POC timeline-based charts for the MultiTaction tool using Chart.js, enhancing data visualization. Integrated a Material UI modal with the Chart.js API to trigger popups based on individual data point click events, significantly improving user experience.`,
+            `Migrated a data-driven art visualization project from vanilla JavaScript to React D3, achieving complete code modularization and component-based architecture. Created comprehensive code documentation outlining challenges faced and proposed solutions to improve future development processes.`
 
         ],
     },
