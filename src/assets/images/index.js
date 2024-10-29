@@ -7,6 +7,7 @@ import logo from './logo.svg'
 import idexcel from "./idexcel.jpeg"
 import testyantra from "./test_yantra_software_solutions_logo.jpeg"
 import chef from "./chef.png";
+import fidelity from "./fidelity.jpg"
 
 export {
     hero,
@@ -17,5 +18,6 @@ export {
     logo,
     idexcel,
     testyantra,
-    chef
+    chef,
+    fidelity
 }
