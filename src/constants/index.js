@@ -110,27 +110,17 @@ export const skills = [
 ];
 
 export const experiences = [
-    // {
-    //     title: "Intern",
-    //     company_name: "I-PEC Power Controlled Pvt Ltd",
-    //     icon: tesla,
-    //     iconBg: "#fbc3bc",
-    //     date: "Aug 2019 - Sept 2019",
-    //     points: [
-    //         `Sourced materials for L7 Drive, conducted Ather charging pod tests, and optimized shop floor operations.`,
-    //     ],
-    // },
-    {
-        title: "Trainee Software Engineer",
-        company_name: "TESTYANTRA Software Solutions ",
-        icon: testyantra,
-        iconBg: "#fbc3bc",
-        date: "Dec 2021 - May 2022",
+        {
+        title: "Software Engineer Co-op",
+        company_name: "Fidelity Investments (FCAT) ",
+        icon: fidelity,
+        iconBg: "#accbe1",
+        date: "July 2024 - Dec 2024",
         points: [
-            `Implemented Context API and react-toastify messages for Auth and Movies module.`,
-            `Implementing all Restful API functions and CRUD operations and server-side routing.`,
-            `Creating Schema using mongoose middleware and validating Schema using joi middleware`,
-            `Working on file uploads using Multer middleware for profiles`
+            `Implemented ATP charts for the MultiTaction tool using an internal Chart-iq package, enabling listing of S&P companies with a search tooltip for improved navigation.`,
+            `Developed POC timeline-based charts for the MultiTaction tool using Chart.js, enhancing data visualization. Integrated a Material UI modal with the Chart.js API to trigger popups based on individual data point click events, significantly improving user experience.`,
+            `Migrated a data-driven art visualization project from vanilla JavaScript to React D3, achieving complete code modularization and component-based architecture. Created comprehensive code documentation outlining challenges faced and proposed solutions to improve future development processes.`
+    
         ],
     },
     {
@@ -148,19 +138,29 @@ export const experiences = [
 
         ],
     },
-        {
-        title: "Software Engineer Co-op",
-        company_name: "Fidelity Investments (FCAT) ",
-        icon: fidelity,
-        iconBg: "#accbe1",
-        date: "July 2024 - Dec 2024",
+    {
+        title: "Trainee Software Engineer",
+        company_name: "TESTYANTRA Software Solutions ",
+        icon: testyantra,
+        iconBg: "#fbc3bc",
+        date: "Dec 2021 - May 2022",
         points: [
-            `Implemented ATP charts for the MultiTaction tool using an internal Chart-iq package, enabling listing of S&P companies with a search tooltip for improved navigation.`,
-            `Developed POC timeline-based charts for the MultiTaction tool using Chart.js, enhancing data visualization. Integrated a Material UI modal with the Chart.js API to trigger popups based on individual data point click events, significantly improving user experience.`,
-            `Migrated a data-driven art visualization project from vanilla JavaScript to React D3, achieving complete code modularization and component-based architecture. Created comprehensive code documentation outlining challenges faced and proposed solutions to improve future development processes.`
-
+            `Implemented Context API and react-toastify messages for Auth and Movies module.`,
+            `Implementing all Restful API functions and CRUD operations and server-side routing.`,
+            `Creating Schema using mongoose middleware and validating Schema using joi middleware`,
+            `Working on file uploads using Multer middleware for profiles`
         ],
     },
+    // {
+    //     title: "Intern",
+    //     company_name: "I-PEC Power Controlled Pvt Ltd",
+    //     icon: tesla,
+    //     iconBg: "#fbc3bc",
+    //     date: "Aug 2019 - Sept 2019",
+    //     points: [
+    //         `Sourced materials for L7 Drive, conducted Ather charging pod tests, and optimized shop floor operations.`,
+    //     ],
+    // },
     // {
     //     title: "Web Developer",
     //     company_name: "Shopify",
