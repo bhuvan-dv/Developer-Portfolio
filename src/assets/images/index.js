@@ -8,6 +8,7 @@ import idexcel from "./idexcel.jpeg"
 import testyantra from "./test_yantra_software_solutions_logo.jpeg"
 import chef from "./chef.png";
 import fidelity from "./fidelity.jpg"
+import northeastern from "./neu.jpeg"
 
 export {
     hero,
@@ -19,5 +20,6 @@ export {
     idexcel,
     testyantra,
     chef,
-    fidelity
+    fidelity,
+    northeastern
 }

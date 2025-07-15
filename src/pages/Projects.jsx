@@ -38,21 +38,51 @@ const Projects = () => {
               <h4 className='text-2xl font-poppins font-semibold'>
                 {project.name}
               </h4>
-              <p className='mt-2 text-slate-500'>{project.description}</p>
-              <div className='mt-5 flex items-center gap-2 font-poppins'>
-                <Link
-                  to={project.link}
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  className='font-semibold text-blue-600'
-                >
-                  Github Link
-                </Link>
-                <img
-                  src={arrow}
-                  alt='arrow'
-                  className='w-4 h-4 object-contain'
-                />
+              <p className='mt-2 text-slate-500 text-justify'>{project.description}</p>
+              <div className='mt-5 flex items-center gap-2 font-poppins flex justify-between'>
+                <>
+                  {project.github ?
+                    <Link
+                      to={project.github}
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      className='font-semibold text-blue-600'
+                    >
+                      Github Link
+                    </Link> : <></>
+                  }
+
+                  {project.website ?
+                    <Link
+                      to={project.website}
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      className='font-semibold text-blue-600'
+                    >
+                      Website Link
+                    </Link> : <></>
+                  }
+                  {project.livePreview ?
+                    <Link
+                      to={project.livePreview}
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      className='font-semibold text-blue-600'
+                    >
+                      Live Preview
+                    </Link> : <></>
+                  }
+                  {project.designlink ?
+                    <Link
+                      to={project.designlink}
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      className='font-semibold text-blue-600'
+                    >
+                      Design Doc
+                    </Link> : <></>
+                  }
+                </>
               </div>
             </div>
           </div>
