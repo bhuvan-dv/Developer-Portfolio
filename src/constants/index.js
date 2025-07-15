@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla, idexcel, testyantra, chef, fidelity } from "../assets/images";
+import { meta, shopify, starbucks, tesla, idexcel, testyantra, chef, fidelity, northeastern } from "../assets/images";
 import {
     car,
     contact,
@@ -110,7 +110,17 @@ export const skills = [
 ];
 
 export const experiences = [
-        {
+    {
+        title: "Graduate Teaching Assistant",
+        company_name: "Northeastern University College of Engineering",
+        icon: northeastern,
+        iconBg: "#b7e4c7",
+        date: "Jan 2025 - August 2025",
+        points: [
+            `As a Teaching Assistant for CSE7380: Theory and Practical Applications of AI Generative Modeling under Professor Yizhen Zhao, I support the delivery of course materials, assist in grading assignments, and provide guidance to students. I help facilitate discussions on cutting-edge topics in AI, particularly generative models, and contribute to the development of learning resources. This role allows me to deepen my understanding of AI while enhancing my teaching, communication, and leadership skills.`
+        ],
+    },
+    {
         title: "Software Engineer Co-op",
         company_name: "Fidelity Investments (FCAT) ",
         icon: fidelity,
@@ -213,22 +223,31 @@ export const projects = [
         theme: 'btn-back-red',
         name: 'Chef2go',
         description: 'Chef2go is a dedicated online platform designed exclusively for students, serving as a convenient all-in-one solution for culinary needs.',
-        link: 'https://github.com/bhuvan-dv/chef-2-go',
+        github: 'https://github.com/bhuvan-dv/chef-2-go',
+        website: "",
+        livePreview:""
     },
-    // {
-    //     iconUrl: threads,
-    //     theme: 'btn-back-green',
-    //     name: 'Full Stack Threads Clone',
-    //     description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    //     link: 'https://github.com/adrianhajdin/threads',
-    // },
-    // {
-    //     iconUrl: car,
-    //     theme: 'btn-back-blue',
-    //     name: 'Car Finding App',
-    //     description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-    //     link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
-    // },
+    {
+        iconUrl: threads,
+        theme: 'btn-back-green',
+        name: 'Cloud-Native WebApp',
+        description: 'Scalable AWS cloud infrastructure applicaVon with CI/CD. Designed and deployed a secure file upload web app on AWS using Node.js, Express, S3, RDS, and CloudWatch.',
+        github: 'https://github.com/CSY6225inc',
+        website: "",
+        livePreview:""
+
+    },
+    {
+        iconUrl: car,
+        theme: 'btn-back-blue',
+        name: 'Soundcape',
+        description: `An immersive data visualization that brings Spotify's Global Top 50 playlist to life, letting you explore the emotional traits of each song through mood, energy, and rhythm.`,
+        github: '',
+        website: "",
+        designlink: "https://rahiranadive7.wixsite.com/portfolio/spotify-soundscape",
+        livePreview:"https://3dsoundcape.netlify.app/"
+
+    },
     // {
     //     iconUrl: snapgram,
     //     theme: 'btn-back-pink',
